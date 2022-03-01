@@ -9,7 +9,7 @@ In this integration we’ll use python-nmap (https://pypi.org/project/python-nma
 
 NMAP port scanners can be installed in different Wazuh agents placed in different network segments. The NMAP output is converted to JSON and appended to each agent’s active responses file.
 
-The scan can be scheduled via chrome job to be executed once a week, month, etc. It can also be triggered using Wazu’s wodle command integration.
+The scan can be scheduled via cron jobs to be executed once a week, month, etc. It can also be triggered using Wazu’s wodle command integration.
 
 
 ## Requirements
